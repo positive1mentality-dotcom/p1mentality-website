@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>P1Mentality™ | Mindset • Discipline • Growth</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 80px 20px;
+    }
+
+    h1, h2, h3 {
+      margin: 0 0 20px;
+    }
+
+    p {
+      color: #b3b3b3;
+      font-size: 16px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      letter-spacing: 1px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background: white;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .section {
+      margin-top: 100px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: #141414;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 60px 20px;
+      border-top: 1px solid #222;
+      margin-top: 100px;
+      color: #777;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>P1MENTALITY™</h1>
+    <p>Build Discipline. Build Structure. Build Your Life.</p>
+    <a href="#" class="btn">Start 30-Day Challenge</a>
+  </div>
+
+  <div class="container">
+
+    <!-- PHILOSOPHY -->
+    <div class="section">
+      <h2>Philosophy</h2>
+      <p>
+        We don’t rely on motivation. We rely on structure.
+        Real change happens when discipline becomes daily behavior,
+        not temporary emotion.
+      </p>
+    </div>
+
+    <!-- PROBLEM -->
+    <div class="section">
+      <h2>Why People Stay Stuck</h2>
+      <p>
+        Most people fail because they depend on motivation,
+        lack structure, and never build consistency.
+      </p>
+    </div>
+
+    <!-- SYSTEM -->
+    <div class="section">
+      <h2>The P1M System</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Mindset</h3>
+          <p>Change how you think to change how you act.</p>
+        </div>
+
+        <div class="card">
+          <h3>Discipline</h3>
+          <p>Build habits that define your future.</p>
+        </div>
+
+        <div class="card">
+          <h3>Growth</h3>
+          <p>Small actions repeated daily create results.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCT -->
+    <div class="section">
+      <h2>30-Day Discipline Challenge</h2>
+      <p>
+        A structured system designed to build consistency through daily execution.
+      </p>
+      <a href="#" class="btn">Start Free</a>
+    </div>
+
+    <!-- COMMUNITY -->
+    <div class="section">
+      <h2>Community</h2>
+      <p>
+        Join people building stronger minds, better habits, and disciplined lives.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    P1Mentality™ | Mindset • Discipline • Growth<br/>
+    Instagram: @p1mentality
+  </footer>
+
+</body>
+</html>
