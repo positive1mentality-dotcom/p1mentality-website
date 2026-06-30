@@ -1,2 +1,3 @@
 # p1mentality-website
 Official website for P1Mentality™ | Mindset, Discipline &amp; Growth brand
+import { SpeedInsights } from "@vercel/speed-insights/next"
